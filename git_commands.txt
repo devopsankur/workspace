@@ -1,0 +1,23 @@
+# Git Commands:
+---------------
+1. add user name and email for commit(global)
+   git config --global user.name "devopsankur"
+   git config --global user.email "ankurkga.devops@gmail.com"
+
+2. add local repo to remote
+   git remote add origin https://github.com/devopsankur/workspace.git
+   git push -u origin master
+
+3. create new branch and branch off master
+   git checkout -b development master
+
+4. add files in stage
+   -For All files 
+    git add .
+   -For single file
+    git add abc.txt 
+
+5. remove file from stage
+    git reset  HEAD abc.txt
+    
+
